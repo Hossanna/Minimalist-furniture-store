@@ -1,0 +1,78 @@
+.navbar{
+    width: 100%;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 30px;
+    word-spacing: 50px;
+}
+.navbar a:nth-of-type(2){
+   color: hsl(115, 75%, 45%);
+}
+.navbar a{
+    color: hsl(0, 33%, 2%);
+}
+.navbar a:hover{
+   color: hsl(0, 33%, 2%);
+}
+#oha{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.move{
+    margin-left: 20%;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.we{
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    margin-top: 30px;
+}
+.trend{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+#one{
+    width: 50%;
+}
+#two{
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    border: 1px solid white;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 200px;
+    border-top-left-radius: 500px;
+}
+.flex{
+    display: flex;
+    height: 50%;
+}
+#sub{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+input{
+    padding: 10px;
+}
+.green{
+    display: flex;
+    padding: 30px;
+    background-color: green;
+    color: white;
+}
+.green div{
+    padding: 70px;
+}
+p{
+    text-align: center;
+}
