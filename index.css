@@ -45,6 +45,7 @@ button{
     text-align: center;
     text-transform: capitalize;
     margin-top: 50px;
+    height: 50%;
 }
 #one{
     width: 50%;
@@ -105,34 +106,6 @@ button{
     left: 0%;
     top: 39%;
 }
-/* .container{
-    height: 40%;
-    width: 90%;
-    display: flex;
-    align-content: center;
-}
-
-.square{
-    height: 34%;
-    width: 26%;
-    margin: 1%;
-    background-color: pink;
-    border: 1px solid blue; */
-    
-}
-.first{
-    order: -1;
-}
-.second{
-    order: 0;
-}
-.third{
-    order: 1;
-}
-.fourth{
-    order: 2;
-}
-
 
 #sub{
     font-size: 20px;
