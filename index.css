@@ -1,13 +1,16 @@
+.body{
+    height: 50%;
+    order: -1;
+}
 .navbar{
     width: 100%;
     margin-top: 25px;
     font-size: 15px;
-    margin-left: 30px;
-    word-spacing: 50px;
+    margin-left: 30%;
+    word-spacing: 30px;
 }
 .navbar a:nth-of-type(2){
    color: hsl(115, 75%, 45%);
-   margin-left: 25%;
 }
 .navbar a{
     color: hsl(0, 33%, 2%);
@@ -35,7 +38,7 @@ h1{
 .we{
     margin: 10px;
 }
-button{
+#button{
     padding: 10px;
     background-color: green;
     color: white;
@@ -44,54 +47,50 @@ button{
 .trend{
     text-align: center;
     text-transform: capitalize;
-    margin-top: 50px;
-    height: 50%;
 }
 #one{
     width: 50%;
 }
 #two{
+    height: 72%;
+    width: 29%;
     position: absolute;
-    width: 32%;
-    height: 69%;
-    border-radius: 50%;
-    left: 72%;
+    left: 71%;
     top: -17%;
-    background-color: #C4C4C4;
 }
 #narnute{
-    height: 65%;
+    height: 58%;
     width: 55%;
     position: absolute;
-    left: 10%;
-    top: 25%;
+    left: 16%;
+    top: 21%;
 }
 #leaf{
-    height: 51%;
+    height: 49%;
     width: 24%;
     position: absolute;
-    left: 64%;
-    top: 43%;
+    left: 76%;
+    top: 51%;
 }
 #basket{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 77%;
+    left: 89%;
     top: 27%;
 }
 #contact{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 67%;
+    left: 79%;
     top: 27%;
 }
 #search{
     height: 3%;
     width: 3%;
     position: absolute;
-    left: 57%;
+    left: 69%;
     top: 27%;
 }
 .flex{
@@ -106,24 +105,318 @@ button{
     left: 0%;
     top: 39%;
 }
+.bodyy{
+    order: 0;
+    display: grid;
+    grid-template-columns: 25% 25%  25% 25%;
+}
+.box{
+    height: 44%;
+    width: 73%;
+    border-radius: 20px;
+    margin-top: 12%;
+}
+.firstbox{
+    background-color: #F7DDA4;
+    margin-left: 33%;
+}
+.secondbox{
+    background-color: teal;
+    margin-left: 21%
+}
+.thirdbox{
+    background-color: #B35900;
+    margin-left: 9%
+}
+.lastbox{
+    background-color: #BCFAFA;
+    margin-left: -2%
+}
+.image{
+    height: 97%;
+    width: 113%;
+}
+.point{
+    position: absolute;
+    top: 76%;
+    left: 95%;
+    height: 5%;
+} 
 
-#sub{
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
+
+ 
+
+@media screen and (max-width:700px), (min-height:1000px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 10px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 4%;
+        width: 4%;
+        position: absolute;
+        left: 5%;
+        top: 4%;
+    }
+    #two{
+        height: 57%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -15%;
+
+    }
+    #narnute{
+        height: 50%;
+        width: 56%;
+        position: absolute;
+        left: 16%;
+        top: 27%;
+    }
+    #leaf{
+        height: 33%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 28%;
+    }
+    #contact{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 28%;
+    }
+    #search{
+        height: 2%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 28%;
+    }
+    #ellipse{
+        height: 27%;
+        width: 6%;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+
+    /* .img1{
+        background-color: #F7DDA4;
+        position: absolute;
+        left: 6%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img2{
+        background-color: teal;
+        position: absolute;
+        left: 27%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img3{
+        background-color:#B35900;
+        position: absolute;
+        left: 50%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img4{
+        background-color:#BCFAFA;
+        position: absolute;
+        left: 73%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .point{
+        position: absolute;
+        top: 98%;
+        left: 94%;
+        height: 4%;
+    }  */
+
+
 }
-input{
-    padding: 10px;
-}
-.green{
-    display: flex;
-    padding: 30px;
-    background-color: green;
-    color: white;
-}
-.green div{
-    padding: 70px;
-}
-p{
-    text-align: center;
+
+/* @media screen and (min-width:700px) {
+    .img1{
+        background-color: #F7DDA4;
+        position: absolute;
+        left: 8%;
+        top: 63%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img2{
+        background-color: teal;
+        position: absolute;
+        left: 30%;
+        top: 63%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img3{
+        background-color:#B35900;
+        position: absolute;
+        left: 53%;
+        top: 63%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img4{
+        background-color:#BCFAFA;
+        position: absolute;
+        left: 76%;
+        top: 63%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .point{
+        position: absolute;
+        top: 76%;
+        left: 95%;
+        height: 5%;
+    } 
+    
+} */
+
+
+@media screen and (max-width:700px) {
+    .navbar{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 15px;
+        word-spacing: 10px;
+    }
+    .navbar a:nth-of-type(2){
+       color: hsl(115, 75%, 45%);
+       margin-left: 15%;
+    }
+    #oha{
+        height: 5%;
+        width: 5%;
+        position: absolute;
+        left: 5%;
+        top: 4%;
+    }
+    #two{
+        height: 65%;
+        width: 38%;
+        position: absolute;
+        left: 62%;
+        top: -16%;
+    }
+    #narnute{
+        height: 56%;
+        width: 53%;
+        position: absolute;
+        left: 18%;
+        top: 23%;
+    }
+    #leaf{
+        height: 36%;
+        width: 24%;
+        position: absolute;
+        left: 76%;
+        top: 57%;
+    }
+    #basket{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 89%;
+        top: 27%;
+    }
+    #contact{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 79%;
+        top: 27%;
+    }
+    #search{
+        height: 3%;
+        width: 3%;
+        position: absolute;
+        left: 69%;
+        top: 27%;
+    }
+    #ellipse{
+        height: 46%;
+        width: 8%;
+        position: absolute;
+        left: 0%;
+        top: 39%;
+    }
+    /* .img1{
+        background-color: #F7DDA4;
+        position: absolute;
+        left: 6%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img2{
+        background-color: teal;
+        position: absolute;
+        left: 27%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img3{
+        background-color:#B35900;
+        position: absolute;
+        left: 50%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .img4{
+        background-color:#BCFAFA;
+        position: absolute;
+        left: 73%;
+        top: 85%;
+        height: 32%;
+        width: 18%;
+        border-radius: 20px;
+    }
+    .point{
+        position: absolute;
+        top: 98%;
+        left: 94%;
+        height: 4%;
+    }  */
 }
