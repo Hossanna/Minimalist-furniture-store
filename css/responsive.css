@@ -22,13 +22,15 @@
         padding: 1em;
     }
     .images{
-        width: 15%;
+        display: none;
+        /* width: 15%; */
     }
     .img{
-        width: 3%;
-        height: 5%;
+        display: none;
+        /* width: 3%;
+        height: 5%; */
     }
-    .toptop{
+    /* .toptop{
         position: absolute;
         top: 17%;
     }
@@ -47,7 +49,7 @@
     .rightright{
         position: absolute;
         left: 66%;
-    }
+    } */
     .article{
         width: 100%;
         height: 455px;
