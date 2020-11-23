@@ -1,0 +1,153 @@
+.body{
+    height: 50%;
+    order: -1;
+}
+.navbar{
+    width: 75%;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 30%;
+    word-spacing: 30px;
+}
+.navbar a:nth-of-type(2){
+   color: hsl(115, 75%, 45%);
+}
+.navbar a{
+    color: hsl(0, 33%, 2%);
+}
+.navbar a:hover{
+   color: hsl(0, 33%, 2%);
+}
+
+
+.move{
+    margin-left: 30%;
+}
+h1{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.we{
+    margin: 10px;
+}
+
+.trend{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 3%;
+}
+
+#two{
+    height: 72%;
+    width: 29%;
+    position: absolute;
+    left: 71%;
+    top: -17%;
+}
+#narnute{
+    height: 58%;
+    width: 55%;
+    position: absolute;
+    left: 16%;
+    top: 21%;
+}
+#leaf{
+    height: 49%;
+    width: 24%;
+    position: absolute;
+    left: 76%;
+    top: 51%;
+}
+#basket{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 89%;
+    top: 27%;
+}
+#contact{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 79%;
+    top: 27%;
+}
+#search{
+    height: 3%;
+    width: 3%;
+    position: absolute;
+    left: 69%;
+    top: 27%;
+}
+.flex{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+
+.bodyy{
+    order: 0;
+    display: grid;
+    grid-template-columns: 25% 25%  25% 25%;
+}
+.box{
+    height: 44%;
+    width: 73%;
+    border-radius: 20px;
+    margin-top: 12%;
+}
+.firstbox{
+    background-color: #F7DDA4;
+    margin-left: 33%;
+}
+.secondbox{
+    background-color: teal;
+    margin-left: 21%
+}
+.thirdbox{
+    background-color: #B35900;
+    margin-left: 9%
+}
+.lastbox{
+    background-color: #BCFAFA;
+    margin-left: -2%
+}
+.image{
+    height: 97%;
+    width: 113%;
+}
+
+.choose{
+    order: 1;
+    text-align: center;
+}
+.wrapper{
+    align-content: center;
+    display: grid;
+}
+
+.article{
+    order: 2;
+    text-align: center;
+}
+#navbar{
+    margin-left: 10%;
+}
+.rectangle{
+    border-radius: 5%;
+    margin: 1%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 40% 30% 20%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+#copyright{
+    text-align: center;
+}
+
+
+
