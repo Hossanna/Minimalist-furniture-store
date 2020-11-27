@@ -1,0 +1,42 @@
+@media screen and (max-width: 900px) {
+  button {
+    display: block;
+    visibility: visible;
+    width: 2rem;
+    font-size: 3vh;
+    background-color: #afe0ff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+  }
+
+  .nav-img{
+    flex: 1;
+  }
+
+  ul {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  li {
+    margin: 0;
+    display: none;
+    align-self: flex-end;
+  }
+
+  
+}
+
+/* @media screen and (min-width: 900px) {
+  button {
+    display: none;
+  }
+  li {
+    margin: 0 2vw;
+  }
+  a {
+    padding: 2vw;
+  }
+} */
