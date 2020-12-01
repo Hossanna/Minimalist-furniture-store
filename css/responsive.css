@@ -2,7 +2,7 @@
   button {
     display: block;
     visibility: visible;
-    width: 2rem;
+    width: 3rem;
     font-size: 3vh;
     background-color: #afe0ff;
     border: none;
@@ -15,8 +15,17 @@
     flex: 1;
   }
 
+  #oha{
+    position: absolute;
+    top: 1%;
+  }
+
+  .nav__btn{
+    margin-left: 70vw;
+  }
+
   ul {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
   }
 

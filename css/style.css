@@ -1,10 +1,10 @@
-*,
+/* *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 body {
   height: 100vh;
@@ -39,13 +39,13 @@ ul {
   align-items: center;
 }
 
-img {
+#oha {
   width: 2.5rem;
   height: 2.5rem;
 }
 
 li {
   list-style-type: none;
-  font-size: 3vh;
+  font-size: 1.5vh;
   margin: 2rem 2rem;
 }
