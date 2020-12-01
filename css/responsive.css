@@ -10,6 +10,7 @@
     cursor: pointer;
     position: absolute;
     top: 1%;
+    left: 90%;
   }
 
   .nav-img{
@@ -28,11 +29,12 @@
 
   ul {
     flex-direction: column;
-    justify-content: space-around;
+    margin-top: 40px;
   }
 
   li {
     margin: 0;
+    
     display: none;
     align-self: flex-end;
   }
