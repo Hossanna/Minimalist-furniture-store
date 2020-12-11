@@ -1,18 +1,4 @@
 @media screen and (max-width: 900px) {
-  button {
-    display: block;
-    visibility: visible;
-    width: 3rem;
-    font-size: 3vh;
-    background-color: #afe0ff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: absolute;
-    top: 1%;
-    left: 90%;
-  }
-
   .nav-img{
     flex: 1;
   }
@@ -21,27 +7,55 @@
     position: absolute;
     top: 1%;
     left: 1%;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .nav__btn{
-    margin-left: 70vw;
+    margin-left: 90vw;
   }
 
   ul {
     flex-direction: column;
     margin-top: 40px;
+    position: absolute;
+    left: 140%;
   }
 
   li {
     margin: 0;
-    
+    font-size: 2.5vw;
     display: none;
-    align-self: flex-end;
+    align-self: flex-start;
   }
+  .list{
+    display: block
+  }
+
+  .hidden{
+    opacity: 0;
+  }
+ 
 
   
 }
 
+
+@media screen and (min-width: 900px) {
+  #oha {
+    width: 3rem;
+    height: 3rem;
+    margin-top: -90%;
+  }
+
+  li{
+    font-size: 1.5vw;
+  }
+
+  i {
+    visibility: hidden;
+  }
+}
 /* @media screen and (min-width: 900px) {
   button {
     display: none;

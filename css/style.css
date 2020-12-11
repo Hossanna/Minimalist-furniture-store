@@ -20,16 +20,15 @@ a:hover {
 }
 
 nav {
-  margin: 0 auto;
-  width: 90vw;
+  margin: 0;
+  width: 50vw;
   display: flex;
-  justify-content: center;
+  margin-left: 1%;
   align-items: center;
   position: relative;
 }
 
 .nav__btn {
-  visibility: hidden;
   flex: 1;
   width: 2rem;
 }
@@ -38,15 +37,12 @@ ul {
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-}
-
-#oha {
-  width: 2.5rem;
-  height: 2.5rem;
+  margin-left: 0%;
 }
 
 li {
   list-style-type: none;
-  font-size: 2.5vw;
-  margin: 2rem 2rem;
+  margin: 10%;
+  margin-top: 0;
 }
+
