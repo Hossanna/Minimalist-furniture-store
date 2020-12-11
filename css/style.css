@@ -38,11 +38,26 @@ ul {
   /* justify-content: space-around; */
   align-items: center;
   margin-left: 0%;
+  margin-bottom: 0;
 }
 
 li {
   list-style-type: none;
   margin: 10%;
   margin-top: 0;
+}
+
+.move{
+  margin-left: 10vw;
+}
+h1{
+  text-transform: uppercase;
+}
+.we{
+  font-size: 22px;
+  margin-bottom: 3%;
+}
+.button{
+  padding: 1%;
 }
 

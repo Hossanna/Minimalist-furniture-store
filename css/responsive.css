@@ -24,7 +24,8 @@
 
   li {
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
+    padding-bottom: 20%;
     display: none;
     align-self: flex-start;
   }
