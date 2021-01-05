@@ -37,8 +37,9 @@ ul {
   display: flex;
   /* justify-content: space-around; */
   align-items: center;
-  margin-left: 0%;
+  margin-left: 0;
   margin-bottom: 0;
+  
 }
 
 li {
@@ -54,10 +55,8 @@ h1{
   text-transform: uppercase;
 }
 .we{
-  font-size: 22px;
   margin-bottom: 3%;
 }
-.button{
-  padding: 1%;
-}
+
+
 

@@ -11,5 +11,6 @@ $("i").click(function(){
 
   $("li").toggleClass("list");
   $("i").toggleClass("hidden");
+  
 
 });
